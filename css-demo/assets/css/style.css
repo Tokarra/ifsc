@@ -1,6 +1,62 @@
 /*  CSS Demo Project */
 
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
 
 body {
-    background-color: lightcyan;
+    font-family: 'Dosis', sans-serif;
+    margin:0;
+}
+
+header.primary{
+   background-color:#AC13ED;
+   color:#ffffff;
+   text-align: center; 
+   padding: 20px;
+}
+
+header.primary h1 {
+    font-size: 2.4rem;
+    margin: 20px 0 10px;
+}
+
+header.primary h1 a{
+    color:#fff;
+    text-decoration: none;
+}
+
+header.primary h2{
+    font-size: 1.4rem;
+}
+
+header.primary nav{
+    max-width: 950px;
+    margin: 20px auto;
+}
+
+header.primary nav ul{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+header.primary nav ul li{
+    list-style-type:none;
+}
+
+header.primary nav a{
+    color:#ffffff;
+    text-decoration: none;
+    background-color: #000000;
+    background-color: rgba(0,0,0,.6);
+    padding: 8px 16px;
+    border-radius: 9px;
 }
