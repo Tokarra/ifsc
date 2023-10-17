@@ -14,8 +14,6 @@ html {
     max-width: 100%;
   }
 
-  /*------------------------------- Background Image --------------------*/
-
 
  /* ----------------- Utility Styles ----------- */
  
@@ -128,7 +126,7 @@ header.primary nav a:active
 }
 
 #intro h2{
-  color:#3b638b;
+  color:#3432EA;
   border-bottom: 1px dotted #c0c0c0;
 }
 
@@ -171,7 +169,7 @@ article.post img{
 }
 
 article.post a{
- color: #3b638b;
+ color: #3432EA;
  transition:.5s;
 }
 
@@ -199,7 +197,7 @@ border-bottom: 1px dotted #c0c0c0;
 }
 
 #practice h3{
-  border-left:7.5px solid #3b638b;
+  border-left:7.5px solid #3432EA;
   padding-left:10px;
 }
 
@@ -208,7 +206,7 @@ border-bottom: 1px dotted #c0c0c0;
     padding:20px 40px;
     margin:40px 80px;
     border-radius:30px 0; 
-    background-color:#3b638b;
+    background-color:#3432EA;
     color:#ffffff;
     line-height:1.4;
     text-shadow:1px 1px #000;
@@ -224,7 +222,7 @@ border-bottom: 1px dotted #c0c0c0;
 
 table{
   width:100%;
-  border:1px solid #c0c0c0;
+  border:2px solid #c0c0c0;
   margin:20px 0;
   border-collapse:collapse;
 }
@@ -234,15 +232,15 @@ table caption{
   margin:10px;
 }
 table tr:nth-child(even){
-   background-color:rgba(0,0,0,.1);
+   background-color:rgba(0,0,0,.2);
 }
 
 table tr:hover{
-  background-color:rgba(0,0,0,.2);
+  background-color:rgba(0,0,0,.3);
 }
 
 table th{
-  background-color:#172635;
+  background-color:#3432EA;
   color:#ffffff;
   padding:10px;
 }
@@ -257,10 +255,6 @@ td:nth-child(n+2){
 
 ol{
   list-style-type:lower-roman;
-}
-
-li{
-
 }
 
 ul li > ul {
@@ -290,7 +284,7 @@ a[target="_blank"]{
 */
 
 aside[role="complementary"]{
-  background-color: #172635;
+  background-color: #3432EA;
   color:#fff;
   padding:40px;
 }
@@ -321,7 +315,7 @@ aside .container .widget footer{
 }
 
 #colophon{
-  background:#3b638b;
+  background:#3432EA;
 }
 
 #colophon h6{
